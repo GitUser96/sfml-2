@@ -1,0 +1,2 @@
+C:\Users\Mai\Visual Studio 2019\Projects\Current2\Debug\Current2.exe
+C:\Users\Mai\Visual Studio 2019\Projects\Current2\Debug\Current2.pdb
