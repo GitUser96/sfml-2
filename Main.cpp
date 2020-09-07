@@ -9,7 +9,7 @@ void main()
 	if (!inputFile.fail())
 	{
 		// Read the data of students from a file into an array of class Student.
-		Student students[3];
+		Student arr[3];
 		int i = 0;
 		string tempName;
 		int tempID;
@@ -17,8 +17,8 @@ void main()
 		{
 			inputFile >> tempName;
 			inputFile >> tempID;
-			students[i].setName(tempName);
-			students[i].setID(tempID);
+			arr[i].setName(tempName);
+			arr[i].setID(tempID);
 			i++;
 		}
 		inputFile.close();
@@ -26,7 +26,7 @@ void main()
 		// Print the data of the students.
 		for (int i = 0; i < 3; i++)
 		{
-			students[i].print();
+			arr[i].print();
 		}
 	}
 }
