@@ -17,7 +17,7 @@ void main()//Hi "Ziyad was here"
 	}
 	else
 		cout << "Error loading Board.txt ..." << endl;
-
+	//Changing things
 	// SFML
 	RenderWindow window;
 	window.create(VideoMode(800, 800), "Simple Maze");
