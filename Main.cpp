@@ -2,6 +2,7 @@
 
 void main()
 {
+					//$whoami
 	int arr[ROWS][COLUMNS];
 	// Reading from File
 	ifstream inputFile;
