@@ -18,6 +18,7 @@ void Player::moveOnWindow(Event e, int arr[][COLUMNS])
 		{
 			circle.move(0, -70);
 			row--;
+			//here is row decremented
 		}
 		break;
 	case Keyboard::Down:
