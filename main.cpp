@@ -58,6 +58,7 @@ void main()//Hi "Ziyad was here" // Adhamzorkani
 			for (int j = 0; j < COLUMNS; j++)
 				window.draw(board[i][j]);
 		// window.draw(p.getPlayer());
+		//abdallah
 		p.drawOnWindow(window);
 		window.display();
 	}
