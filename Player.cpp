@@ -9,7 +9,8 @@ Player::Player(float radius, int initialRow, int initialColumn, string fileName)
 	row = initialRow;
 	column = initialColumn;
 }
-void Player::moveOnWindow(Event e, int arr[][COLUMNS])
+void Player::moveOnWindow(Event e, int arr[][COLUMNS]) // Adham Zorkani
+
 {
 	switch (e.key.code)
 	{

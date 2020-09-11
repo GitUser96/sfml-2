@@ -1,6 +1,6 @@
 #include "Player.h"
 
-void main()//Hi "Ziyad was here"
+void main()//Hi "Ziyad was here" // Adhamzorkani
 {
 					//$whoami
 	int arr[ROWS][COLUMNS];
@@ -17,7 +17,7 @@ void main()//Hi "Ziyad was here"
 	}
 	else
 		cout << "Error loading Board.txt ..." << endl;
-
+	//Changing things
 	// SFML
 	RenderWindow window;
 	window.create(VideoMode(800, 800), "Simple Maze");
@@ -58,6 +58,7 @@ void main()//Hi "Ziyad was here"
 			for (int j = 0; j < COLUMNS; j++)
 				window.draw(board[i][j]);
 		// window.draw(p.getPlayer());
+		//abdallah
 		p.drawOnWindow(window);
 		window.display();
 	}
