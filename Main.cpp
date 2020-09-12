@@ -1,8 +1,8 @@
 #include "Player.h"
-
+										//Malek Elhosainy contributed to this
 void main()//Hi "Ziyad was here"
 {
-					//$whoami
+	//$whoami
 	int arr[ROWS][COLUMNS];
 	// Reading from File
 	ifstream inputFile;
@@ -60,5 +60,6 @@ void main()//Hi "Ziyad was here"
 		// window.draw(p.getPlayer());
 		p.drawOnWindow(window);
 		window.display();
+
 	}
 }
